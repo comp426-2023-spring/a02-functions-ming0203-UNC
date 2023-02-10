@@ -1,0 +1,31 @@
+{
+  "name": "a02-michelle-lin",
+  "version": "1.0.1",
+  "description": "comp426HW",
+  "main": "index.js",
+  "scripts": {
+    "test": "node cli.js -n 25.05 -w 121.53 -z Asia/Singapore"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/comp426-2023-spring/a02-functions-ming0203-UNC.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "michelle lin",
+  "license": "GPL-3.0-or-later",
+  "type": "module",
+  "bin": {
+    "galosh.js": "./cli.js"
+  },
+  "bugs": {
+    "url": "https://github.com/comp426-2023-spring/a02-functions-ming0203-UNC/issues"
+  },
+  "homepage": "https://github.com/comp426-2023-spring/a02-functions-ming0203-UNC#readme",
+  "dependencies": {
+    "minimist": "^1.2.8",
+    "moment-timezone": "^0.5.40",
+    "node-fetch": "^3.3.0"
+  }
+}
